@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .div{
+            width: 900px;
+            height: 200px;
+            background-color: red;
+            box-sizing: border-box;
+            padding-left: 210px;
+            position: relative;
+        }
+        .div div{
+
+        }
+        .left{
+            height: 100%;
+            width: 200px;
+            background-color: orange;
+            position: absolute;
+            left: 0;
+        }
+        .right{
+            height: 100%;
+            width: 100%;
+            background-color: paleturquoise;
+            float: right;
+
+
+        }
+    </style>
+</head>
+<body>
+ <div class="div">
+     <div class="left"></div>
+     <div class="right"></div>
+ </div>
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="js/index.js"></script>
+</html>

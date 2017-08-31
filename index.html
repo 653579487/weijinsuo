@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>响应式开发</title>
+</head>
+<body>
+<header id="header" class="visible-lg visible-md"  >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<a href='#' title="">
+					<i class="icon-Mobilphone"></i>
+					<span>客服电话：4006-89-4006 /(9:00~21:00）</span>
+					</a>
+				</div>
+				<div class="col-md-1">
+					<a href="" title="">在线客服</a>
+				</div>
+				<div class="col-md-1">
+					<a href="" title="">
+					<i class="icon-phone"></i>
+					<span>移动端</span>
+					</a>
+				</div>
+				<div class="col-md-1 weixin">
+					<a href="" title="">
+					微信公众号
+					<img src="image/erweima.png" height="100" width="100" alt="二维码">
+					</a>
+				</div>
+				<div class="col-md-1">
+					<a href="" title="">财富登陆</a>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-2 cunguanzhuanqu">
+					<a href="" title="">进入存管专区</a>
+				</div>
+				<div class="col-md-1">
+					<a href="" title="">帮助中心</a>
+				</div>
+				<div class="col-md-1 login"><a href="#">注册</a><a href="#">登陆</a></div>
+				
+
+			</div>
+		</div>			
+	</header ><!-- /header -->	
+<nav class="navbar navbar-weijinsuo navbar-static-top ">
+ 	 	<div class="container">
+ 	 		<div class="navbar-header hidden-sm" >
+ 	 		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#weijinsuo" aria-expanded="false">
+       				 <span class="sr-only">Toggle navigation</span>
+        				 <span class="icon-bar"></span>
+      				 <span class="icon-bar"></span>
+        				 <span class="icon-bar"></span>
+      			</button>
+ 	 			<a href="" title="" class="navbar-brand">
+ 	 			<i class="icon-icon"></i>
+ 	 			<i class="icon-log"></i>
+ 	 			</a>
+ 	 		</div>
+
+ 	 		<div class="collapse navbar-collapse" id="weijinsuo">
+ 	 			<ul class="nav navbar-nav navbar-right">
+ 	 		         	<li class="active"><a href="" title="">首页</a></li>
+ 	 		         	<li><a href="" title="">我要投资</a></li>
+ 	 		         	<li><a href="" title="">安全保障</a></li>
+ 	 		         	<li><a href="" title="">新手专区</a></li>
+ 	 		         	<li><a href="" title="">新闻公告</a></li>
+ 	 		         	<li><a href="" title="">关于我们</a></li>
+ 	 		         	<li><a href="" title="">我的账户</a></li>
+ 	 		  </ul>
+ 	 		</div>         			 
+  		</div>
+	</nav><!-- /导航 -->	
+<section id="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators 指针 -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides  包装的幻灯片-->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" data-image-lg='image/slid1.jpg' data-image-xs = 'image/ss1.jpg'>
+    </div>
+
+   <div class="item" data-image-lg='image/slid2.jpg' data-image-xs = 'image/ss2.png'>
+   <img src="image/ss1.jpg" height="168" width="875" alt="">
+    </div>
+       <div class="item" data-image-lg='image/slid3.jpg' data-image-xs = 'image/ss3.png'>
+       <img src="image/ss2.png" height="196" width="1041" alt="">
+    </div>
+   <div class="item" data-image-lg='image/slide4.jpg' data-image-xs = 'image/ss4.jpg'>
+    </div>
+  </div>
+
+  <!-- Controls  控制 -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section><!-- /轮播 -->
+<section id="gonggao">
+	<div class="container">
+		<div class="col-md-8 my_left">
+		    <a><p><i class="icon-xx"></i>公告:【微公告】关于银联系统维护暂停PC/APP充值服务
+		    </p></a>
+		</div>
+		<div class="col-md-4 visible-md visible-lg my_right">
+			<a><span class="pull-left">网络借贷暂行办法</span></a>
+			<a><span class="pull-right"><i class="icon-xxx"></i>2017上半年运营报告</span></a>
+		</div>
+	</div>
+</section><!--公告-->
+<section id="tese">
+	   <div class="container">
+		   <div class="row">
+				<div class="col-md-8 my_left">
+					<div class="row">
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#">
+								<div class="media">
+									<div class="media-left">
+										<i class="icon-icon-usd-barchart"></i>
+									</div>
+									<div class="media-body">
+										<p class="media-heading">宝新能源</p>
+										/深创投跟投A轮
+									</div>
+								</div>
+							</a>
+			</div>
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#">
+								<div class="media">
+									<div class="media-left">
+										<i class="icon-pay-square"></i>
+									</div>
+									<div class="media-body">
+										<p class="media-heading">银联支付</p>
+										全程保障资金安全
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#">
+								<div class="media">
+									<div class="media-left">
+										<i class="icon-usd"></i>
+									</div>
+									<div class="media-body">
+										<p class="media-heading">宝新能源</p>
+										资金保障再进一步
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 col-xs-6 col-sm-6">
+							<a href="#">
+								<div class="media">
+									<div class="media-left">
+										<i class="icon-insurance"></i>
+									</div>
+									<div class="media-body">
+										<p class="media-heading">安全保障</p>
+										八重安全保障机制
+									</div>
+								</div>
+							</a>
+						</div>
+			</div>
+	        </div>
+				<div class="col-md-4 my_right visible-md visible-lg">
+			<div class="row">
+				<div class="col-md-6">
+					<div>
+					   <p>平台上线时间</p>
+					   <p >2013/11/15</p>
+					</div>
+					<div>
+					   <p>已归还本息（元）</p>
+					   <p>7,332,258,852</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div>
+					   <p>累计成交额（元）</p>
+					   <p>2013/11/15</p>
+					</div>
+					<div>
+					   <p>已为用户赚取收益（元）</p>
+					   <p>266,094,987</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		   </div>
+	</div>
+</section><!-- /特色产品 -->
+<section id="products">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 my_left">
+				<div class="panel panel-default">
+					<div class="panel-heading pull-left">
+							<p>微金宝</p>
+					</div>
+					<div class="panel-body">
+						<div>
+							<h4>微金宝一期 <a href=""><span class="badge yying1">明星产品</span></a></h4>
+							<p>月付息到期还本</p>
+							<ul>
+								<li>
+									<p>6.50%</p>
+									<p>测算年化收益率</p>
+								</li>
+								<li>
+									<p>1个月</p>
+									<p>借款期限</p>
+								</li>
+								<li>
+									<p>0万</p>
+									<p>可投金额</p>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default">立即投资</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 my_right">
+				<div class="panel panel-default">
+					<div class="panel-heading pull-left">
+						<p>月月盈</p>
+					</div>
+					<div class="panel-body">
+						<div>
+							<h4>月月盈<a href=""><span class="badge yying2">明星产品</span></a></h4>
+
+							<p>灵活性好收益持续疯长</p>
+							<ul>
+								<li>
+									<p>6-12%</p>
+									<p>年化收益率</p>
+								</li>
+								<li>
+									<p>22815</p>
+									<p>已投人次</p>
+								</li>
+								<li>
+									<p>39万</p>
+									<p>可投金额</p>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-danger">立即投资</button>
+							<p class="visible-lg">&nbsp;每半月可申请赎回一次 / 每半月加息0.2% </p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--<div class="row ">
+			<div class="col-md-12 my_products">
+				<div class="pull-left my_left">
+					<div class="leftTop">
+						<h3>短期灵活</h3>
+						<p class="badge">1-3个月期限</p>
+					</div>
+					<div class="leftBottom">
+						<span class="pull-left">预约投标</span>
+						<span class="pull-right" >查看更多</span>
+					</div>
+				</div>
+				<div class="pull-right my_right">
+					<div class="item1">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item2">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item3">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-12 my_products">
+				<div class="pull-left my_left">
+					<div class="leftTop">
+						<h3>短期灵活</h3>
+						<p class="badge">1-3个月期限</p>
+					</div>
+					<div class="leftBottom">
+						<span class="pull-left">预约投标</span>
+						<span class="pull-right" >查看更多</span>
+					</div>
+				</div>
+				<div class="pull-right my_right">
+					<div class="item1">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item2">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item3">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-12 my_products">
+				<div class="pull-left my_left">
+					<div class="leftTop">
+						<h3>短期灵活</h3>
+						<p class="badge">1-3个月期限</p>
+					</div>
+					<div class="leftBottom">
+						<span class="pull-left">预约投标</span>
+						<span class="pull-right" >查看更多</span>
+					</div>
+				</div>
+				<div class="pull-right my_right">
+					<div class="item1">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item2">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item3">
+						<div class="prTop">
+							<h4>微周转-消费金融一千一百九十三期</h4>
+							<div class="pull-left">
+								<p class="plb">8.5%</p>
+								<p class="ply">预测年化收益</p>
+							</div>
+							<div class="pull-right">
+								<p class="plt">105天</p>
+								<p class="plj">借款期限</p>
+							</div>
+						</div>
+						<div class="prBottom">
+							<ul>
+								<li>
+									<p>筹集金额（元）</p>
+									<p>30万</p>
+								</li>
+								<li>
+									<p>产品星级</p>
+									<p>xxxxx</p>
+								</li>
+								<li>
+									<p>投资进度</p>
+									<p>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+	</div>
+</section><!-- /产品 -->
+<section id="news">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 my_news_left">
+				<div class="news-bar">
+					<p class="pull-left">媒体报道</p>
+					<a href="#"><p class="pull-right">更多</p></a>
+				</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="image/news1.jpg" alt="...">
+						</a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">【中华网】微金所荣膺2017互联网金融典范企业奖</h4>
+						<span>2017年7月20日，第六届中国财经峰会暨“光荣与梦想”致敬盛典在京举办。微金所受邀参与此次盛会，
+							与行业领袖们共话互联网金融领域的发展机遇与挑战，并被大会授予“2017互联网金融典范企业”奖。</span>
+					</div>
+				</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="image/news2.jpg" alt="...">
+						</a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">【网易新闻】微金所恭贺粤东西北首家民营银行-客商银行盛大开业！</h4>
+						<span>
+							广东省人民政府党组成员陈云贤、省政府副秘书长林积、省金融办主任肖学、中国人民银行广州分行党委委员
+							、副行长李升高、广东银监局党委委员、副局长谭震、省工商联党组成员、专职副主席张宏斌、中共梅州市委书记谭君铁、
+							中共梅州市委副书记、市长方利旭、客商银行主发起人股东代表、广东宝丽华集团有限公司董事局主席叶华能、微金所董事长范忠民、
+							董事张继业、中微集团副总裁金鑫等人出席开业仪式。
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--=========================-->
+			<div class="col-md-5 pull-right my_news-right visible-lg visible-md">
+				<div class="news-bar">
+					<p class="pull-left">微金所新闻</p>
+					<a href="#"><p class="pull-right">更多</p></a>
+				</div>
+				<ul>
+					<li>【微还款】一周还款公告2017年8月21日-2017年8月27日</li>
+					<li>【微还款】一周还款公告2017年8月14日-2017年8月20日</li>
+					<li>【微还款】一周还款公告2017年8月7日-2017年8月13日</li>
+					<li>【微动态】提“钱”迎七夕，礼好爱更浓</li>
+					<li>【微动态】提“钱”迎七夕，礼好爱更浓</li>
+					<li>【微动态】提“钱”迎七夕，礼好爱更浓</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section><!-- /新闻 -->
+<section id="copyright" class="hidden-sm hidden-xs">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 cp_top visible-lg visible-md">
+			<div class="row">
+				<div class="col-md-4 item1">
+					<div class="item1">
+						<i class="icon-icon"></i>
+						<i class="icon-log"></i>
+					</div>
+					<div class="item2">
+						4006-89-4006<br>
+						010-53563799
+					</div>
+					<div class="item3">服务热线(服务时间:9:00----21:00)</div>
+					<div class="item4">
+						<i class="icon-cf"></i><span>在线客服</span>
+					</div>
+					<div class="item5">
+						<span>关注我们:</span>
+						<a href="#"><i class="icon-qq"></i></a>&nbsp;<a href="#"><i class="icon-wb"></i></a>
+						<a href="#"><img src="image/jhwj.png" alt=""/></a>
+					</div>
+				</div>
+				<div class="col-md-4 item2">
+					<div class="row">
+						<div class="col-md-4">
+							<h4>关于我们</h4>
+							<ul>
+								<a href="#"><li>公司介绍</li></a>
+								<a href="#"><li>管理团队</li></a>
+								<a href="#"><li>合作伙伴</li></a>
+								<a href="#"><li>友情链接</li></a>
+								<a href="#"><li>联系我们</li></a>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<h4>最新动态</h4>
+							<ul>
+								<a href="#"><li>媒体报道</li></a>
+								<a href="#"><li>公司动态</li></a>
+								<a href="#"><li>利率报告</li></a>
+								<a href="#"><li>更新历史</li></a>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<h4>帮助中心</h4>
+							<ul>
+								<a href="#"><li>新手指引</li></a>
+								<a href="#"><li>安全保障</li></a>
+								<a href="#"><li>操作指南</li></a>
+								<a href="#"><li>VIP投资人</li></a>
+								<a href="#"><li>存管指引</li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4  item3">
+					<h4>合作伙伴</h4>
+					<p>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+					</p>
+					<p>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+						<a href="#">
+							<i class="icon-y3"></i>
+							<span>中国银联</span>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12 cp_bot">
+			<div class="item1">
+				<div class="row">
+					<div class="col-md-4 col-sm-5 pull-left cp_bot_left">
+						<ul>
+							<a href="#"><li>我要理财</li></a>
+							<a href="#"><li>我要借款</li></a>
+							<a href="#"><li>忘记密码</li></a>
+							<a href="#"><li>如何提现</li></a>
+							<a href="#"><li>登录 | 注册</li></a>
+							<a href="#"><li>华兴银行</li></a>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-7 pull-right cp_bot_right visible-lg visible-md">
+						<span>©版权所有©深圳微金所金融信息服务有限公司 粤ICP备 16000732号-1</span>
+					</div>
+				</div>
+			</div>
+			<div class="item2">
+				<ul>
+					<a href="#"><li>0</li></a>
+					<a href="#"><li>1</li></a>
+					<a href="#"><li>2</li></a>
+					<a href="#"><li>3</li></a>
+					<a href="#"><li>4</li></a>
+					<a href="#"><li>5</li></a>
+					<a href="#"><li>6</li></a>
+					<a href="#"><li>7</li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section><!-- /脚注 -->
+
+</body>
+<script src='node_modules//jquery/dist/jquery.js'></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</html>
